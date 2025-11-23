@@ -1,0 +1,13 @@
+# Ignore heavy model files
+*.keras
+*.h5
+
+# Keep the lightweight model
+!satellite_optimized.tflite
+
+# Ignore Python cache and system files
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
